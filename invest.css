@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    box-shadow: 0 5px 10px #462626ae;
+    background-color: #7e8bd55b;
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    margin-left: 10%;
+}
+.mid-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+.mid-nav h3{
+   padding: 10%;
+}
+.mid-nav h3:hover{
+    cursor: pointer;
+    color: rgb(51, 20, 247);
+}
+.right-nav{
+    margin-right: 10%;
+}
+.right-nav a{
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 8%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 14px 40px;
+    border-radius: 60px;
+    background-color: rgb(162, 155, 206);
+    border-color: rgb(162, 155, 206);
+    margin-top: 20px;
+    font-weight: 750;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}  
+.right-nav a:hover{
+    background-color: #5b61f7;
+}
+.con{
+    display: flex;
+}
+.conl{
+    padding: 10%;
+    width: 50%;
+    height: 60%;
+    margin-top: -10%;
+}
+.conr{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 24%;
+    right: -10%;
+    align-items: center;
+    justify-content: center;
+}
+.conl h2{
+    position: relative;
+    margin-top: 2%;
+   
+    font-size: 35px;
+}
+.conl p{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 15px;
+}
+.conl a{
+    margin-left: 10%;
+    font-size: 20px;
+    z-index: 1;
+    right: 8%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 14px 40px;
+    border-radius: 60px;
+    background-color: rgb(162, 155, 206);
+    border-color: rgb(162, 155, 206);
+    margin-top: 20px;
+    font-weight: 750;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.conl a:hover{
+    background-color: #5b61f7;
+}
+.conl-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.career h1{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.stud h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.career h3{
+   
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(30, 22, 22, 0.768);
+}
+.stud h3{
+    
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(30, 22, 22, 0.768);
+}
+.know{
+
+    font-size: 16px;
+    margin-top: -7%;
+    margin-left: 3%;
+}
+
+.type{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 30%;
+    left: 9%;
+}
+.design{
+    width: 13%;
+    height: 80%;
+    background-color:#ff63dbf4;
+    border-radius: 20%;
+    box-shadow: 0 5px 10px #462626ae;
+}
+.design i{
+    padding: 20px ;
+    font-size: 30px;
+}
+.design h3{
+    padding: 0px 0px 0px 20px;
+}
+.design:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 50px #462626ae;
+}
+.develop{
+    width: 13%;
+    height: 80%;
+    background-color:#a583c1cb;
+    border-radius: 20%;
+    box-shadow: 0 5px 10px #462626ae;
+}
+.develop i{
+    padding: 20px ;
+    font-size: 30px;
+}
+.develop h3{
+    padding: 0px 0px 0px 20px;
+}
+.develop:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 50px #462626ae;
+}
+.market{
+    width: 13%;
+    height: 80%;
+    background-color:#78e0fae2;
+    border-radius: 20%;
+    box-shadow: 0 5px 10px #462626ae;
+}
+.market i{
+    padding: 20px ;
+    font-size: 30px;
+}
+.market h3{
+    padding: 0px 0px 0px 20px;
+}
+.market:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 50px #462626ae;
+}
+.learn{
+    width: 13%;
+    height: 80%;
+    background-color:#ffaa41f4;
+    border-radius: 20%;
+    box-shadow: 0 5px 10px #462626ae;
+}
+.learn i{
+    padding: 20px ;
+    font-size: 30px;
+}
+.learn h3{
+    padding: 0px 0px 0px 20px;
+}
+.learn:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 50px #462626ae;
+}
+.browse{
+    width: 10%;
+    height: 80%;
+}
+.browse i{
+    font-size: 20px;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: rgb(162, 155, 206);
+    border-color: rgb(162, 155, 206);
+    margin-top: 50px;
+    font-weight: 750;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.browse h4{
+    margin-left: -5%;
+}
+.browse i:hover{
+    background-color: #5b61f7;
+}
+footer{
+    background-color: #7e8bd55b;
+    font-size: 0;
+}
+
+
+@media (max-width: 600px){
+    .conl h2{
+        
+        font-size: 20px;
+    }
+    nav{
+        font-size: 15px;
+       
+        z-index: 10;
+    }
+    .mid-nav{
+	position: fixed;
+        font-size: 0px;
+    }
+    .right-nav a{
+        font-size: 15px;
+        padding: 7px 20px;
+        font-weight: 700;
+        margin-top: 0%;
+    }
+    .con{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+    .conl{
+        width: 100%;
+        height: 100%;
+        margin-left: -10%;
+    }
+    .conl h2{
+        font-size: 30px;
+    }
+    .conl h2:nth-child(1){
+        margin-top: 10%;
+    }
+    .conr{
+       width: 100%; 
+       height: 100%;
+       margin-top: 55%;
+    }
+    .career{
+        margin-left: 15%;
+        margin-top: 10px;
+    }
+    .stud{
+        margin-left: 15%;
+        margin-top: 10px; 
+    }
+    .know{
+        margin-top: 80%;
+    }
+    .type{
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .design{
+        width: 40%;
+    }
+    .develop{
+        position: absolute;
+        width: 40%;
+        top: 0%;
+        left: 50%;
+    }
+    .market{
+        width: 40%;
+        margin-top: 15px;
+    }
+    .learn{
+        position: absolute;
+        width: 40%;
+        top: 80%;
+        left: 50%;
+        margin-top: 15px;
+    }
+    .browse{
+        margin-left: 40%;
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .browse h4{
+        font-size: 15px;
+
+    }
+    footer{
+        z-index: 10;
+        position: relative;
+        font-size: 15px;
+        box-shadow: 0 5px 50px #462626ae;
+        width: 100%;
+        height: 10vh;
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    footer h3:hover{
+        cursor: pointer;
+        color: rgb(51, 20, 247);
+    }
+}
+    
